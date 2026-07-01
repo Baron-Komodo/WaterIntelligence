@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <span class="drop">💧</span>
+    <span>Water used by your AI prompts</span>
+  </header>
+
+  <div class="total">
+    <span id="total">0</span><span class="unit">ml</span>
+  </div>
+
+  <p id="equivalent" class="equivalent"></p>
+
+  <div class="section-head"><span>By AI</span></div>
+  <ul id="byai"></ul>
+
+  <div class="section-head">
+    <span>Recent prompts</span>
+  </div>
+  <ul id="history"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
